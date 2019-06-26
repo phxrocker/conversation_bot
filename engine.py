@@ -26,11 +26,13 @@ def main():
     car_color = input('\nWell good for you.  What color is it? ')
     break
   else:
-      print("\nThat's ok, " + name + ".  We'll skip that one for now")
-  
+      print("\nThat's ok, " + name + ".  We'll skip that one for now\n")
+      main()  
+
   # Car Color Condition
   while car_color == color:
     print('\nOf course it is\n')
+    main()
     break
   else:
     main()   
