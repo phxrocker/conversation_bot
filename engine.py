@@ -30,7 +30,7 @@ def main():
   if car_color == color:
     print('\nOf course it is\n')
   else:
-    print('\n')
+    print('\nuh...ok\n')
     return  
 
 while True:
