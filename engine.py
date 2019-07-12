@@ -4,7 +4,7 @@ def main():
 
   name = input('What is your name? ' )
   if name == str('floyd'):
-    floyd()
+    floyd() # Run guess game
   else:
     color = input('\nHi ' + name + "! What's your favorite color? ")
 
