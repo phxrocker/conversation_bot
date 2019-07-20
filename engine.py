@@ -25,14 +25,15 @@ def main():
   # Did the user have a car
   if car_check.startswith('y'):
     car_color = input('\nWell good for you.  What color is it? ')
+     # Car Color Condition
+    if car_color == color:
+      print('\nOf course it is\n')
+    else:
+      print('\nuh...ok\n')
   else:
     print("\nThat's ok, " + name + ".  We'll skip that one for now\n")
      
-  # Car Color Condition
-  if car_color == color:
-    print('\nOf course it is\n')
-  else:
-    print('\nuh...ok\n')
+ 
   
   # Offer a game
   game_check = input('\nWould you like to play a game?\n')
