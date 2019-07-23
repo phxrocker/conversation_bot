@@ -1,8 +1,13 @@
+import os
 from floyd import floyd
 
 def main():
 
   name = input('What is your name? ' )
+  nameFile = open('name.txt', 'w')
+  nameFile.write(name)
+  nameFile.close()
+  
   
   color = input('\nHi ' + name + "! What's your favorite color? ")
 
